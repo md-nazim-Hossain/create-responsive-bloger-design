@@ -44,7 +44,7 @@ header{
 }
 .img-right{
     position: relative;
-    right:-160px;
+    right:-260px;
 }
 /* mobile section */
 .mobile-section{
@@ -62,7 +62,7 @@ header{
 /* another section css */
 .img-left{
     position: relative;
-    left:-260px;
+    left:-180px;
 }
 /* footer part */
 .footer{
@@ -72,7 +72,7 @@ header{
     text-align: center;
 }
 .col div{
-    padding: 8px 0;
+    padding: 8px 0px;
 }
 .col div a{
     text-decoration: none;
@@ -85,14 +85,18 @@ header{
 
 /* media query */
 @media screen and (max-width:576px) {
-    body{
+    *{
         overflow-x: hidden;
     }
+    .mobile-section{
+        overflow:visible;
+    }
     .img-size{
-        width: 300px;
+        width: 200px;
     }
     .remove-size{
-        left: 100px;
+        left: 150px;
+        top: 80px;
     }
     .img-right{
         position: relative;
@@ -101,5 +105,9 @@ header{
     .img-left{
         position: relative;
         left:0px;
+        padding-left: 5px;
+    }
+    .size{
+        width: 100%;
     }
 }
