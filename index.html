@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloger Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        .section{
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-image: url('images/bg-pattern-intro.svg');
+            border-bottom-left-radius: 100px;
+            padding-bottom: 10px;
+        }
+        .size{
+            width: 100%;
+            background-repeat: no-repeat;
+            background-image: url('images/bg-pattern-circles.svg');
+            height: 250px;
+            left:-100px;
+            transform: rotateX(180deg);
+            position: relative;
+         } 
+        .remove-size{
+            width: 100%;
+            transform: rotateX(180deg);
+            position: relative;
+            left: 200px;
+            bottom: 90px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <!-- header part -->
+    <header class="bg-common mb-5">
+        <div class="section">
+            <nav class="navbar navbar-expand-lg navbar-light pt-4">
+                <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Company
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contact
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Contact</a></li>
+                                <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <button class="button text-white">Log In</button>
+                        <button class=" button active">Sign Up</button>
+                    </div>
+                </div>
+                </div>
+            </nav>
+            <div class="text-white my-5 py-5">
+                <div class="d-flex justify-content-center align-items-center">
+                    <h1>A modern publishing platform</h1>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <small>Grow your audience and build your online brand</small>
+                </div>
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                    <button class="button text-white">Start For Free </button>
+                    <button class="button active">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main part -->
+    <main>
+        <!-- design for the future part -->
+        <section class="design-part m-5 p-5 mb-5">
+            <h1 class="text-center mt-0 pt-0">Design for the future</h1>
+            <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-center align-items-center">
+                
+                <div class="col p-2 child-1">
+                    <div class="blog">
+                        <h3>Introducin an extesnible editor</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique repellendus eveniet numquam autem, voluptas rem maxime molestiae fugit optio quae quidem architecto nemo culpa ex inventore est minima ad quibusdam hic dolore ipsam animi, officiis tenetur ut. Reiciendis voluptas sequi natus excepturi enim tenetur unde, similique, expedita autem ipsam incidunt eius?</p>
+                    </div>
+                    <div class="blog">
+                        <h3>Robust content managment</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique repellendus eveniet numquam autem, voluptas rem maxime molestiae fugit optio quae quidem architecto nemo culpa ex inventore est minima ad quibusdam hic dolore ipsam animi, officiis tenetur ut. Reiciendis voluptas sequi natus excepturi enim tenetur unde, similique, expedita autem ipsam incidunt eius?</p>
+                    </div>
+                </div>
+                <div class="col child-2">
+                    <img class="img-fluid img-right" src="images/illustration-editor-desktop.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- mobile section -->
+        <section class="mobile-section">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <div class="size">
+                       <div class="remove-size">
+                            <img class="img-size" src="images/illustration-phones.svg" alt="">   
+                       </div>
+                    </div>
+                </div>
+                <div class="col text-white p-5">
+                    <div>
+                        <h1>State of the Art Infrastructure</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium sequi id consequatur voluptate eligendi deserunt modi tenetur aliquid adipisci quis, eaque facere nihil quaerat debitis corporis laboriosam! Adipisci corporis tempore quaerat architecto repudiandae voluptas, ipsam fugit rerum possimus dolorem deleniti? Quasi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- another section -->
+        <section class="design-part ms-5 ps-5 mb-5">
+            <div class="row row-cols-1 row-cols-md-2 m-0 d-flex justify-content-center align-items-center p-5 ps-0">
+                <div class="col p-0 img-left">
+                    <img class="img-fluid " src="images/illustration-laptop-desktop.svg" alt="">
+                </div>
+                <div class="col pe-5 p-2">
+                    <div class="blog">
+                        <h3>Free,Open,Simple</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique repellendus eveniet numquam autem, voluptas rem maxime molestiae fugit optio quae quidem architecto nemo culpa ex inventore est minima ad quibusdam hic dolore ipsam animi, officiis tenetur ut. Reiciendis voluptas sequi natus excepturi enim tenetur unde, similique, expedita autem ipsam incidunt eius?</p>
+                    </div>
+                    <div class="blog">
+                        <h3>Powerfull tooling</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique repellendus eveniet numquam autem, voluptas rem maxime molestiae fugit optio quae quidem architecto nemo culpa ex inventore est minima ad quibusdam hic dolore ipsam animi, officiis tenetur ut. Reiciendis voluptas sequi natus excepturi enim tenetur unde, similique, expedita autem ipsam incidunt eius?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer part -->
+    <footer>
+        <section class="footer">
+            <div class="row row-cols-1 row-cols-md-4 p-5">
+                <div class="col p-3">
+                    <img src="images/logo.svg" alt="">
+                </div>
+                <div class="col p-3">
+                    <h4 class="text-white">Products</h4>
+                    <div><a href="">Overview</a></div>
+                    <div><a href="">Pricing</a></div>
+                    <div><a href="">Marketplace</a></div>
+                    <div><a href="">Features</a></div>
+                    <div><a href="">Intrigation</a></div>
+                </div>
+                <div class="col p-3">
+                    <h4 class="text-white">Company</h4>
+                    <div><a href="">About</a></div>
+                    <div><a href="">Terms</a></div>
+                    <div><a href="">Blog</a></div>
+                    <div><a href="">Career</a></div>
+                </div>
+                <div class="col p-3">
+                    <h4 class="text-white">Contact</h4>
+                    <div><a href="">Contact</a></div>
+                    <div><a href="">Newsletter</a></div>
+                    <div><a href="">LinkedIn</a></div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

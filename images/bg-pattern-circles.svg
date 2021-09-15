@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 502" width="500" height="502">
+	<title>Layer</title>
+	<defs>
+		<image width="1014" height="1018" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAxNCIgaGVpZ2h0PSIxMDE4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIHRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDAgMTAxOCkiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHJlY3QgZmlsbD0iIzNFNDA2MiIgeD0iMjEzIiB5PSIyMTQiIHdpZHRoPSI1ODgiIGhlaWdodD0iNTkwIiByeD0iMjk0Ii8+PHJlY3Qgc3Ryb2tlPSIjODc4RDkyIiBvcGFjaXR5PSIuNSIgeD0iLjUiIHk9Ii41IiB3aWR0aD0iMTAxMyIgaGVpZ2h0PSIxMDE3IiByeD0iNTA2LjUiLz48cmVjdCBzdHJva2U9IiM4NzhEOTIiIHg9IjE3MC41IiB5PSIxNzEuNSIgd2lkdGg9IjY3MyIgaGVpZ2h0PSI2NzUiIHJ4PSIzMzYuNSIvPjwvZz48L3N2Zz4="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Layer">
+		<use id="bg-pattern-circles" href="#img1" transform="matrix(0.493,0,0,0.493,0,0)"/>
+	</g>
+</svg>
